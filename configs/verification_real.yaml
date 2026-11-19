@@ -1,0 +1,19 @@
+data: data/processed/real_v2
+output: runs/real_verification
+seeds: [42, 43]
+defaults:
+  epochs: 6
+  batch_size: 512
+  device: cpu
+  patience: 2
+  lr: 0.001
+experiments:
+  - {name: constant_engage, model: constant, task: engage}
+  - {name: constant_like, model: constant, task: like}
+  - {name: lr_engage, model: lr, task: engage}
+  - {name: lr_like, model: lr, task: like}
+  - {name: deepfm_engage, model: deepfm, task: engage}
+  - {name: single_engage, model: single, task: engage}
+  - {name: single_like, model: single, task: like}
+  - {name: shared_w1, model: shared, task: both, like_weight: 1.0}
+  - {name: mmoe_w1, model: mmoe, task: both, experts: 3}

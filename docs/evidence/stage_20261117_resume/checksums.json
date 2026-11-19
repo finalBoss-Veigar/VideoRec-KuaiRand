@@ -1,0 +1,13 @@
+{
+  "all_metrics.csv": "0a1149016ba53f99facc51024cf7e05475a19ebf63a62ecb00e93741780ad4cc",
+  "comparison.csv": "6cf2a2e73525fc8fa16c689dae2fd685c29919ef304efb85929830e746be95f4",
+  "data_summary.json": "c7825566b04badc620b8ce35712653b649b5058d8ca46a2a33f2f6ce2e29e236",
+  "environment.json": "0e29cbd8b83b0753fa1d69364cadcf9d36c4a951be7d882c8bc5dedcea140552",
+  "group_metrics.csv": "05752a79326c71ba8b9554a7c4c523ec90daacacdd324a648332c72c39f6cf48",
+  "protocol.json": "20383fb16350d2076c5250a2d9c6afac61405b96a151c55eaa0d8feec2428ba1",
+  "selection.json": "62d7be7e4ea39f8e56378a9c3f9a2a9ad1547173f823929ac9b12b461bd2dcd8",
+  "source_hashes.json": "939e7de58c7f7b1b7ef9c89b7f61723eea32dbcdcdca90dbdbe62239de0bdc5f",
+  "status.json": "b2093ab63fea1b97b808bd8dd0aa0fb293976112b9ed47dc3f55af5ff2fa83fb",
+  "summary.csv": "e29b5d858d3effe14ad045d1792e308f0be454168c19a38fadb260e7a7dc761d",
+  "verification.json": "3a9f6b5fba5e8827ac2a09d2b45dc80b08a8f3d497ab56b0b8f7f17a418f636a"
+}

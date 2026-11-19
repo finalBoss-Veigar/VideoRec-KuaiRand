@@ -1,0 +1,182 @@
+{
+  "data_id": "be44fe7fd258d53476148d39cb09800e750084b0a5c309c97d8e32571ccf4bb7",
+  "dataset_kind": "real",
+  "source_rows": 1436609,
+  "selected_audit": {
+    "rows": 50000,
+    "users": 17522,
+    "videos": 4837,
+    "exact_duplicate_rows": 0,
+    "missing": {
+      "user_id": 0,
+      "video_id": 0,
+      "time_ms": 0,
+      "is_click": 0,
+      "is_like": 0,
+      "tab": 0,
+      "duration_ms": 0,
+      "is_rand": 0,
+      "source_row_id": 0,
+      "source_file": 0
+    },
+    "tabs": {
+      "1": 50000
+    },
+    "feedback_rate": 0.52858,
+    "like_rate": 0.01986,
+    "time_min_ms": 1649477929126,
+    "time_max_ms": 1652025056647,
+    "is_click_positive_count": 26429,
+    "is_like_positive_count": 993,
+    "time_min_shanghai": "2022-04-09 12:18:49.126000+08:00",
+    "time_max_shanghai": "2022-05-08 23:50:56.647000+08:00"
+  },
+  "split_audit": {
+    "train": {
+      "rows": 36422,
+      "users": 14630,
+      "videos": 4454,
+      "exact_duplicate_rows": 0,
+      "missing": {
+        "user_id": 0,
+        "video_id": 0,
+        "time_ms": 0,
+        "is_click": 0,
+        "is_like": 0,
+        "tab": 0,
+        "duration_ms": 0,
+        "is_rand": 0,
+        "source_row_id": 0,
+        "source_file": 0
+      },
+      "tabs": {
+        "1": 36422
+      },
+      "feedback_rate": 0.5355554335291857,
+      "like_rate": 0.020674317720059305,
+      "time_min_ms": 1649477929126,
+      "time_max_ms": 1650211091170,
+      "is_click_positive_count": 19506,
+      "is_like_positive_count": 753,
+      "time_min_shanghai": "2022-04-09 12:18:49.126000+08:00",
+      "time_max_shanghai": "2022-04-17 23:58:11.170000+08:00",
+      "unseen_user_row_count": 0,
+      "unseen_user_row_rate": 0.0,
+      "unseen_user_unique_count": 0,
+      "unseen_user_unique_rate": 0.0,
+      "unseen_video_row_count": 0,
+      "unseen_video_row_rate": 0.0,
+      "unseen_video_unique_count": 0,
+      "unseen_video_unique_rate": 0.0
+    },
+    "valid": {
+      "rows": 6813,
+      "users": 5319,
+      "videos": 2136,
+      "exact_duplicate_rows": 0,
+      "missing": {
+        "user_id": 0,
+        "video_id": 0,
+        "time_ms": 0,
+        "is_click": 0,
+        "is_like": 0,
+        "tab": 0,
+        "duration_ms": 0,
+        "is_rand": 0,
+        "source_row_id": 0,
+        "source_file": 0
+      },
+      "tabs": {
+        "1": 6813
+      },
+      "feedback_rate": 0.5141640980478497,
+      "like_rate": 0.017026273301042127,
+      "time_min_ms": 1650211409565,
+      "time_max_ms": 1651075054852,
+      "is_click_positive_count": 3503,
+      "is_like_positive_count": 116,
+      "time_min_shanghai": "2022-04-18 00:03:29.565000+08:00",
+      "time_max_shanghai": "2022-04-27 23:57:34.852000+08:00",
+      "unseen_user_row_count": 1809,
+      "unseen_user_row_rate": 0.2655217965653897,
+      "unseen_user_unique_count": 1498,
+      "unseen_user_unique_rate": 0.2816318856927994,
+      "unseen_video_row_count": 272,
+      "unseen_video_row_rate": 0.03992367532658154,
+      "unseen_video_unique_count": 210,
+      "unseen_video_unique_rate": 0.09831460674157304
+    },
+    "test": {
+      "rows": 6765,
+      "users": 5284,
+      "videos": 2096,
+      "exact_duplicate_rows": 0,
+      "missing": {
+        "user_id": 0,
+        "video_id": 0,
+        "time_ms": 0,
+        "is_click": 0,
+        "is_like": 0,
+        "tab": 0,
+        "duration_ms": 0,
+        "is_rand": 0,
+        "source_row_id": 0,
+        "source_file": 0
+      },
+      "tabs": {
+        "1": 6765
+      },
+      "feedback_rate": 0.5055432372505543,
+      "like_rate": 0.018329637841832964,
+      "time_min_ms": 1651075220071,
+      "time_max_ms": 1652025056647,
+      "is_click_positive_count": 3420,
+      "is_like_positive_count": 124,
+      "time_min_shanghai": "2022-04-28 00:00:20.071000+08:00",
+      "time_max_shanghai": "2022-05-08 23:50:56.647000+08:00",
+      "unseen_user_row_count": 2176,
+      "unseen_user_row_rate": 0.32165558019216556,
+      "unseen_user_unique_count": 1732,
+      "unseen_user_unique_rate": 0.32778198334595005,
+      "unseen_video_row_count": 324,
+      "unseen_video_row_rate": 0.04789356984478936,
+      "unseen_video_unique_count": 237,
+      "unseen_video_unique_rate": 0.11307251908396947
+    }
+  },
+  "split_hashes": {
+    "train": "94b3efb61f8b3ef1322392259b68ec01161c105f149ab39d38a22f1f0a21de28",
+    "valid": "2213f44ad9aa32024fd38b9b222d84b5e4feffbceb1d7b52ee0bc1e93bc36d06",
+    "test": "30173a313259ac40e3fee7e08415d23384ecfae179d577dd73a0550230322fde"
+  },
+  "protocol": {
+    "split": "global chronological",
+    "ratio": null,
+    "train_before": "2022-04-18T00:00:00+08:00",
+    "valid_before": "2022-04-28T00:00:00+08:00",
+    "train_before_ms": 1650211200000,
+    "valid_before_ms": 1651075200000,
+    "timezone": "Asia/Shanghai",
+    "ties": "same timestamp stays in same split",
+    "target_order": [
+      "is_click",
+      "is_like"
+    ],
+    "primary_target": "is_like"
+  },
+  "feature_availability": {
+    "prediction_time": "immediately before exposure",
+    "user_id/video_id/tab": "request user, candidate video, scenario known before exposure",
+    "duration_ms": "intrinsic video duration; assume the logged duration equals metadata available before exposure; no mutable full-period table used",
+    "hour_sin/hour_cos": "exposure request clock; timezone Asia/Shanghai",
+    "excluded": "all same-row feedback, play_time_ms, full-period user table, video statistics and all historical feedback features",
+    "history": "no historical label features; validation/test labels never update inputs",
+    "missing": "required raw fields with missing/nonfinite values are excluded and counted; no fitted imputation; scaling and vocabularies fitted on train only"
+  },
+  "limitations": [
+    "Uniform sample is only descriptive of this filtered scene within the Pure candidate pool; no online effect or all-platform representativeness claim.",
+    "Pure logs omit videos outside the candidate pool and are not complete user histories.",
+    "New sample and explicit time boundaries still overlap the source period of previously published example results; not an independent new dataset.",
+    "Excluding invalid/nonpositive intrinsic duration can introduce selection bias; zero viewing time and unclicked exposures are retained."
+  ]
+}

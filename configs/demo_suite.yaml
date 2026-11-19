@@ -1,0 +1,14 @@
+data: data/processed/demo
+output: runs/demo_suite
+seeds: [42, 43]
+defaults:
+  epochs: 3
+  batch_size: 256
+  device: cpu
+  patience: 2
+experiments:
+  - {name: constant_engage, model: constant, task: engage}
+  - {name: lr_engage, model: lr, task: engage}
+  - {name: single_engage, model: single, task: engage}
+  - {name: single_like, model: single, task: like}
+  - {name: shared_w1, model: shared, task: both, like_weight: 1.0}

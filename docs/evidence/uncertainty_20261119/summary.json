@@ -1,0 +1,58 @@
+{
+  "rows": 6765,
+  "positive_events": 124,
+  "user_clusters": 5284,
+  "training_seeds_averaged": 3,
+  "resamples": 1000,
+  "valid_resamples": 1000,
+  "invalid_one_class_resamples": 0,
+  "bootstrap_seed": 20261119,
+  "unit": "user cluster; all within-user events retained; paired across both predictors and training seeds",
+  "estimand": "mean of per-training-seed metrics; NOT metric of ensemble-averaged probabilities",
+  "difference_direction": "candidate minus LR; AUC/AP higher is better, LogLoss lower is better",
+  "interval_method": "two-sided percentile, nominal 95%, conditional on frozen trained models",
+  "metrics": {
+    "auc": {
+      "baseline": 0.6201000869476516,
+      "candidate": 0.6645559193216465,
+      "difference": 0.044455832373994864,
+      "ci95": [
+        0.005575209848945864,
+        0.07984072987700672
+      ]
+    },
+    "logloss": {
+      "baseline": 0.08889323524998417,
+      "candidate": 0.0885581556566441,
+      "difference": -0.00033507959334007353,
+      "ci95": [
+        -0.002245668812612493,
+        0.0015305554610733961
+      ]
+    },
+    "ap": {
+      "baseline": 0.0685440415517911,
+      "candidate": 0.06561215207233836,
+      "difference": -0.0029318894794527345,
+      "ci95": [
+        -0.02405497869663594,
+        0.013242579449070173
+      ]
+    }
+  },
+  "limitations": [
+    "Post-hoc uncertainty analysis of an already used test period; not a new holdout.",
+    "Assumes independent user clusters; cross-user item/time dependence is not modeled.",
+    "Does not retrain models or estimate uncertainty from training data and seed selection.",
+    "Approximate percentile coverage; no online causal or population-wide significance claim."
+  ],
+  "source_suite": "stage_20261117_resume",
+  "selected_model": "shared_small",
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "data_id": "be44fe7fd258d53476148d39cb09800e750084b0a5c309c97d8e32571ccf4bb7",
+  "test_split_sha256": "30173a313259ac40e3fee7e08415d23384ecfae179d577dd73a0550230322fde"
+}

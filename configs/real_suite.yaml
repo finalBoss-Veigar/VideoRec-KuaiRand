@@ -1,0 +1,21 @@
+data: data/processed/real_v2
+output: runs/real_suite
+seeds: [42, 43, 44]
+defaults:
+  epochs: 12
+  batch_size: 512
+  device: cpu
+  patience: 3
+  lr: 0.001
+experiments:
+  - {name: constant_engage, model: constant, task: engage}
+  - {name: constant_like, model: constant, task: like}
+  - {name: lr_engage, model: lr, task: engage}
+  - {name: lr_like, model: lr, task: like}
+  - {name: single_engage, model: single, task: engage}
+  - {name: single_like, model: single, task: like}
+  - {name: shared_w025, model: shared, task: both, like_weight: 0.25}
+  - {name: shared_w1, model: shared, task: both, like_weight: 1.0}
+  - {name: shared_w4, model: shared, task: both, like_weight: 4.0}
+  - {name: shared_no_user, model: shared, task: both, variant: no_user}
+  - {name: mmoe_w1, model: mmoe, task: both, experts: 3}

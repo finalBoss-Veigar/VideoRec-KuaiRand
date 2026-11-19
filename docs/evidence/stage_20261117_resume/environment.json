@@ -1,0 +1,20 @@
+{
+  "at": "2026-11-17T14:49:34.205685+00:00",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "cpu": "AMD Ryzen 9 5900HX with Radeon Graphics        ",
+  "physical_cores": 8,
+  "logical_cores": 16,
+  "ram_bytes": 68097667072,
+  "available_ram_bytes": 48448954368,
+  "disk_free_bytes": 204527587328,
+  "torch": "2.15.0+cpu",
+  "cuda_build": null,
+  "cuda_available": false,
+  "gpu_inventory": "NVIDIA GeForce RTX 3060 Laptop GPU, 6144 MiB, 617.42",
+  "git": {
+    "commit": "6a974387886394cc1cf698cbd08883a58fddc6bd",
+    "branch": "codex/videorec-evidence",
+    "dirty": "?? .vscode/\n?? 00_START_HERE.html\n?? CHANGELOG.md\n?? README.md\n?? docs/AUTODL_GUIDE.md\n?? docs/EXPERIMENT_REPORT.md\n?? docs/FILE_INVENTORY.csv\n?? docs/FILE_MAP.md\n?? docs/HANDOFF.md\n?? docs/LEARNING_GUIDE.md\n?? docs/START_HERE.md\n?? docs/STEP_LOG.md\n?? docs/reference/\n?? \"docs/v2_\\344\\275\\277\\347\\224\\250\\344\\270\\216\\345\\256\\236\\350\\267\\265\\350\\257\\264\\346\\230\\216.md\"\n?? \"docs/\\344\\273\\216\\347\\254\\254\\344\\270\\200\\347\\211\\210\\350\\277\\201\\347\\247\\273.md\"\n?? \"docs/\\345\\221\\275\\344\\273\\244\\351\\200\\237\\346\\237\\245.md\"\n?? \"docs/\\345\\256\\236\\351\\252\\214\\350\\256\\241\\345\\210\\222.csv\"\n?? \"docs/\\345\\256\\236\\351\\252\\214\\350\\256\\260\\345\\275\\225\\346\\250\\241\\346\\235\\277.csv\"\n?? \"docs/\\346\\236\\266\\346\\236\\204\\344\\270\\216\\346\\225\\260\\346\\215\\256\\345\\215\\217\\350\\256\\256.md\"\n?? \"docs/\\351\\252\\214\\350\\257\\201\\350\\257\\264\\346\\230\\216.md\"\n?? exercises/\n?? run_demo.bat\n?? setup_windows.bat",
+    "identity_fallback": "source_hashes.json"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "data_id": "be44fe7fd258d53476148d39cb09800e750084b0a5c309c97d8e32571ccf4bb7",
+  "checks": [
+    "strict chronological boundaries",
+    "disjoint source rows",
+    "same-row labels excluded",
+    "unknown IDs map to zero",
+    "saved model reproduces validation predictions"
+  ],
+  "runs": [
+    {
+      "run": "constant_s42",
+      "max_reload_difference": 3.469446951953614e-18,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "constant_s43",
+      "max_reload_difference": 3.469446951953614e-18,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "constant_s44",
+      "max_reload_difference": 3.469446951953614e-18,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "deepfm_s42",
+      "max_reload_difference": 7.27062224314956e-09,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "deepfm_s43",
+      "max_reload_difference": 1.138343813655851e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "deepfm_s44",
+      "max_reload_difference": 3.7167739858068316e-09,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "lr_s42",
+      "max_reload_difference": 9.974659986866641e-17,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "lr_s43",
+      "max_reload_difference": 9.974659986866641e-17,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "lr_s44",
+      "max_reload_difference": 9.974659986866641e-17,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "mmoe_aux0p2_s42",
+      "max_reload_difference": 2.9790496847148518e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "mmoe_aux0p2_s43",
+      "max_reload_difference": 2.9796600298226394e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "mmoe_aux0p2_s44",
+      "max_reload_difference": 2.9795837352963872e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "shared_aux0p0_s42",
+      "max_reload_difference": 2.980194091506405e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "shared_aux0p0_s43",
+      "max_reload_difference": 1.4900588984900764e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "shared_aux0p0_s44",
+      "max_reload_difference": 1.4883804300147574e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "shared_aux0p2_s42",
+      "max_reload_difference": 2.980194091506405e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "shared_aux0p2_s43",
+      "max_reload_difference": 2.979507440770135e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "shared_aux0p2_s44",
+      "max_reload_difference": 2.9799652079276484e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "shared_aux1p0_s42",
+      "max_reload_difference": 2.9792785682936085e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "shared_aux1p0_s43",
+      "max_reload_difference": 2.980194091506405e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "shared_aux1p0_s44",
+      "max_reload_difference": 2.9795837352963872e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "shared_no_user_s42",
+      "max_reload_difference": 2.9798889134013962e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "shared_no_user_s43",
+      "max_reload_difference": 2.9798889134013962e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "shared_no_user_s44",
+      "max_reload_difference": 2.9795837352963872e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "shared_small_s42",
+      "max_reload_difference": 2.9799652079276484e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "shared_small_s43",
+      "max_reload_difference": 2.9799652079276484e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "shared_small_s44",
+      "max_reload_difference": 2.9796600298226394e-08,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "single_s42",
+      "max_reload_difference": 7.015037523094847e-09,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "single_s43",
+      "max_reload_difference": 7.267761226170677e-09,
+      "unseen_prediction_finite": true
+    },
+    {
+      "run": "single_s44",
+      "max_reload_difference": 3.6781311052447307e-09,
+      "unseen_prediction_finite": true
+    }
+  ]
+}

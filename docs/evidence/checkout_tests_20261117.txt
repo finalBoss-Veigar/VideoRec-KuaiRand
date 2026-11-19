@@ -1,0 +1,14 @@
+[run_a] epoch=1 train=0.75774 valid=0.76030
+[run_a] epoch=2 train=0.75171 valid=0.75615
+[run_a] epoch=3 train=0.74578 valid=0.75175
+[run_b] epoch=1 train=0.75774 valid=0.76030
+[run_b] epoch=2 train=0.75171 valid=0.75615
+[run_b] epoch=3 train=0.74578 valid=0.75175
+[custom] epoch=1 train=0.74969 valid=0.75993
+[custom] epoch=2 train=0.74728 valid=0.75725
+SKIP completed: c_s42
+SKIP completed: c_s43
+----------------------------------------------------------------------
+Ran 29 tests in 5.633s
+
+OK

@@ -1,0 +1,19 @@
+{
+  "frozen_at": "2026-11-17T14:51:22.688421+00:00",
+  "rule": "minimum mean validation like LogLoss",
+  "selected_model": "shared_small",
+  "selected_shared": "shared_small",
+  "mean_validation_logloss": {
+    "shared_small": 0.07990813178891547,
+    "single": 0.08032409752888538,
+    "shared_aux0p0": 0.08034049451899926,
+    "shared_aux0p2": 0.08042591951095246,
+    "deepfm": 0.0804875488968562,
+    "mmoe_aux0p2": 0.08052571327347201,
+    "lr": 0.08077618225588946,
+    "shared_aux1p0": 0.08201343271915423,
+    "shared_no_user": 0.08452152907622601,
+    "constant": 0.08657790938083627
+  },
+  "test_not_evaluated_yet": true
+}

@@ -1,0 +1,47 @@
+{
+  "original_metric_tolerance": 1e-07,
+  "original_metrics_agree": true,
+  "source_runs": {
+    "lr_s42": {
+      "config_sha256": "7a5ae9aa1338bffcb8d7e396d9f0dac1fb15118b0569842ae9867396a43fdedb",
+      "metrics_sha256": "9fd3c72171cecb98575c886664fd332007c6b52e5bd3eea6a42565fe0a26b47c",
+      "source_predictions_sha256": "d9a077f657e187b26271c2ce90de0f3130740692a77ea35268a67bf3a5527aec"
+    },
+    "lr_s43": {
+      "config_sha256": "0eac9a0ebfcf7fb5076868805e9a4b4b3a67dbc3f3fc7bb48291abf8174f24ec",
+      "metrics_sha256": "f25787777e9fe8801064ed3a7d3635e6e01a580dfbe3fb67d501022d7b5b129e",
+      "source_predictions_sha256": "d9a077f657e187b26271c2ce90de0f3130740692a77ea35268a67bf3a5527aec"
+    },
+    "lr_s44": {
+      "config_sha256": "74e4299c7fab548405ef4f8bbdb29de346a544595778b6b3208c4fabd8b7dc96",
+      "metrics_sha256": "8d8006be61f895ca769686fa4cb7afa5288a716d80e729b76a1f60214a231692",
+      "source_predictions_sha256": "d9a077f657e187b26271c2ce90de0f3130740692a77ea35268a67bf3a5527aec"
+    },
+    "shared_small_s42": {
+      "config_sha256": "72cf7fe6e6a29b0e72daffa5cbb9d5efd84e4370b6f00790ddc9749d099a0159",
+      "metrics_sha256": "e3fda214d00c6a82ed4e8e81898e366bfce302ce86a60cc35a52e23db63c6c6b",
+      "source_predictions_sha256": "d098fe08baa12553fac03dc5b5f775f043eb825f194cb2d6ad40975fd5b98ffb"
+    },
+    "shared_small_s43": {
+      "config_sha256": "0146a97746fc146c4853cdb598b9af0a74e176bc28b68095b004143153690380",
+      "metrics_sha256": "57a35315241f182ccc99977528a605e287b2c60a6ee9a59da79a62b6bf061140",
+      "source_predictions_sha256": "7760ef95f5e7fff613376ac4cd685229fdc55163b49ddd169748d100175a5186"
+    },
+    "shared_small_s44": {
+      "config_sha256": "7a8a696da404fe64d2ba57e6d876bc311d1619cb55f093e85f8249e3563e6de3",
+      "metrics_sha256": "c5ad55a0f970e3c032dfd4db70b6d13ffc06a221ac4adb89e05e745050f71dbc",
+      "source_predictions_sha256": "5e783f29895f90e155e810247932fc56afa4f7ae8a30d331e5c4187a4ecc0ad1"
+    }
+  },
+  "tests_observed": {
+    "command": ".venv_repro/Scripts/python.exe -m unittest discover -s tests -q",
+    "tests": 32,
+    "status": "OK",
+    "seconds": 7.277
+  },
+  "failed_first_attempt": {
+    "local_run": "runs/analysis_20261119_user_bootstrap",
+    "reason": "Windows default GBK could not decode UTF-8 config path; fixed explicit UTF-8 and used a new run ID",
+    "raw_manifest_sha256": "d124180b25ecf395d3ce7fa694bf7a9f778986dc80caff08e1bb5c3717523273"
+  }
+}
