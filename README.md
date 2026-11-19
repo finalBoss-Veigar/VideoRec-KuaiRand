@@ -43,6 +43,6 @@ Get-Content "runs/$id/summary.csv"
 
 ## 阅读与复现
 
-[40 分钟技术面讲稿 · PDF](docs/VideoRec-Interview-40min.pdf) · [可编辑讲稿](docs/INTERVIEW_40MIN.md) · [固定验收范围](docs/PROGRESS.md)
+[第一人称面试逐字稿 · PDF](docs/VideoRec-Interview-40min.pdf) · [可编辑讲稿](docs/INTERVIEW_40MIN.md) · [固定验收范围](docs/PROGRESS.md)
 
 本公开版本取自开发快照 `197cb49bbbd70838fce1efb070ced924179a9f50`。实验文件记录当时的代码版本、数据指纹与运行环境。公开仓库从本次发布开始记录提交。
